@@ -1,2 +1,19 @@
 // For information on how to create your own theme, please see:
 // http://ionicframework.com/docs/theming/
+:root{
+  --bg-color: #003049;
+  --text-color: #EAE2B7;
+  --text-title-shadow: #D62828;
+  --ion-color-primary: #003049;
+}
+
+:root.ios{
+  --ion-background-color: var(--bg-color);
+  --ion-text-color: var(--text-color);
+
+}
+:root.md{
+  --ion-background-color: var(--bg-color);
+  --ion-text-color: var(--text-color);
+
+}
